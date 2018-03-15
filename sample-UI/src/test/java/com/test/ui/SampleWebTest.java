@@ -13,7 +13,7 @@ public class SampleWebTest {
 	
 	@Test
 	public void googleTest() {
-		System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chrome/osx/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chrome/linux/chromedriver");
 		WebDriver driver = new ChromeDriver();
 
 		LogUtil.log("Launched the browser");
