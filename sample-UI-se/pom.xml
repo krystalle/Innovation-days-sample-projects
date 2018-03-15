@@ -1,0 +1,79 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>SampleUIse</groupId>
+	<artifactId>SampleUIse</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<parent>
+                <groupId>com.intuit.tools</groupId>
+                <artifactId>martini</artifactId>
+                <version>3.0.6</version>
+        </parent>
+
+	<repositories>
+                <repository>
+                        <id>intuit-nexus</id>
+                        <name>Intuit Nexus</name>
+                        <url>http://nexus-proxy/nexus/content/groups/public/</url>
+                        <releases>
+                                <enabled>true</enabled>
+                        </releases>
+                        <snapshots>
+                                <enabled>true</enabled>
+                        </snapshots>
+                </repository>
+
+                <repository>
+                        <id>scm.int.repo</id>
+                        <name>TEP Repositories</name>
+                        <url>http://sds-repo-int.qdc.intuit.com:8081/nexus/content/repositories/CTO.Shared-releases/</url>
+                </repository>
+
+
+        </repositories>
+
+	<dependencies>
+
+		<!--<dependency>
+			<groupId>com.intuit.tools</groupId>
+			<artifactId>WebDriverBuilder</artifactId>
+			<version>2.3.3</version>
+		</dependency>-->
+
+		<dependency>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                        <version>1.2.17</version>
+                </dependency>
+
+		<dependency>
+        		<groupId>org.seleniumhq.selenium</groupId>
+        		<artifactId>selenium-java</artifactId>
+        		<version>3.9.0</version>
+    		</dependency>  
+		
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.5.2</version>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.15</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>${project.basedir}/src/test/resources/config/SampleTestNG.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

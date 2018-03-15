@@ -1,0 +1,2 @@
+"Story","SuiteName","Class","Method","Type","AutomationFlag","Key","Description","Priority","Setup","Steps","Validation","Status"
+"NA","Default suite","com.test.ui.SampleWebTest","testGoogle","FUNCTIONAL","true","","NA","MEDIUM","","NA","","PASS"

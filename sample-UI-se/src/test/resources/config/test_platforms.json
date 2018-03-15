@@ -1,0 +1,13 @@
+{
+	"name": "UI Test with martini",
+	"description": "UI Test with martini",
+	"platforms": [
+		{
+			"name": "Selenium Grid Chrome",
+			"capabilities": {
+				"platform": "LINUX",
+				"browserName": "chrome"
+			}
+		}
+	]
+}

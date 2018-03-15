@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[[11] com.test.ui.SampleWebTest#testGoogle:  - ]]>
+    </line>
+    <line>
+      <![CDATA[LINUX---chrome---60.0.3112.113---]]>
+    </line>
+    <line>
+      <![CDATA[Live Stram Url--> null]]>
+    </line>
+    <line>
+      <![CDATA[[info] Launched the browser]]>
+    </line>
+    <line>
+      <![CDATA[[info] Getting the Google URL]]>
+    </line>
+    <line>
+      <![CDATA[[info] Searching for Intuit]]>
+    </line>
+    <line>
+      <![CDATA[[info] Verifying the title]]>
+    </line>
+    <line>
+      <![CDATA[[info] Done]]>
+    </line>
+    <line>
+      <![CDATA[[**END**] Thread ID : 11]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14527" started-at="2018-03-15T22:17:14Z" finished-at="2018-03-15T22:17:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14527" started-at="2018-03-15T22:17:14Z" finished-at="2018-03-15T22:17:28Z">
+      <class name="com.test.ui.SampleWebTest">
+        <test-method status="PASS" signature="setUpBeforeMethod(java.lang.reflect.Method)[pri:0, instance:com.test.ui.SampleWebTest@78186a70]" name="setUpBeforeMethod" is-config="true" duration-ms="4" started-at="2018-03-15T15:17:14Z" finished-at="2018-03-15T15:17:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.test.ui.SampleWebTest.testGoogle(org.openqa.selenium.remote.RemoteWebDriver) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeMethod -->
+        <test-method status="PASS" signature="testGoogle(org.openqa.selenium.remote.RemoteWebDriver)[pri:0, instance:com.test.ui.SampleWebTest@78186a70]" name="testGoogle" duration-ms="14438" started-at="2018-03-15T15:17:14Z" data-provider="from-json" finished-at="2018-03-15T15:17:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RemoteWebDriver: chrome on LINUX (null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[11] com.test.ui.SampleWebTest#testGoogle:  - ]]>
+            </line>
+            <line>
+              <![CDATA[LINUX---chrome---60.0.3112.113---]]>
+            </line>
+            <line>
+              <![CDATA[Live Stram Url--> null]]>
+            </line>
+            <line>
+              <![CDATA[[info] Launched the browser]]>
+            </line>
+            <line>
+              <![CDATA[[info] Getting the Google URL]]>
+            </line>
+            <line>
+              <![CDATA[[info] Searching for Intuit]]>
+            </line>
+            <line>
+              <![CDATA[[info] Verifying the title]]>
+            </line>
+            <line>
+              <![CDATA[[info] Done]]>
+            </line>
+            <line>
+              <![CDATA[[**END**] Thread ID : 11]]>
+            </line>
+          </reporter-output>
+          <attributes>
+            <attribute name="driver">
+              <![CDATA[RemoteWebDriver: chrome on LINUX (null)]]>
+            </attribute> <!-- driver -->
+            <attribute name="cm">
+              <![CDATA[com.intuit.tools.configmanagement.ConfigManager@147ed70f]]>
+            </attribute> <!-- cm -->
+          </attributes>
+        </test-method> <!-- testGoogle -->
+        <test-method status="PASS" signature="tearDownAfterMethod()[pri:0, instance:com.test.ui.SampleWebTest@78186a70]" name="tearDownAfterMethod" is-config="true" duration-ms="1" started-at="2018-03-15T15:17:28Z" finished-at="2018-03-15T15:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterMethod -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:com.test.ui.SampleWebTest@78186a70]" name="tearDownAfterClass" is-config="true" duration-ms="1" started-at="2018-03-15T15:17:28Z" finished-at="2018-03-15T15:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- com.test.ui.SampleWebTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
