@@ -41,7 +41,7 @@ public class SampleWebTest {
 	@Test
 	public void googleTest2() throws Exception{
 		
-		WebDriver driver = new RemoteWebDriver(new URL("http://aa319bb4726fd11e8883b025e65e4e41-397059983.us-west-2.elb.amazonaws.com:4444/wd/hub"), DesiredCapabilities.chrome());
+		WebDriver driver = new RemoteWebDriver(new URL("http://selenium-hub:4444/wd/hub"), DesiredCapabilities.chrome());
 
 		LogUtil.log("Launched the browser");
 		LogUtil.log("Getting the Google URL");
